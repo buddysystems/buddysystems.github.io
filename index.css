@@ -1,30 +1,37 @@
-html {
-    height: 100%;
-    width: 100%;
-    border: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
 }
 
 body {
     background-color: powderblue;
-    border: 0px;
-    padding: 0;
-    margin: 0;
-    border-collapse: collapse;
-    height: 100%;
-    width: 100%;
-    float: inline-start;
 }
 
-.HeaderAndNav {
-    background-color: #f2f2f2;
+.HeaderAndNav .Header {
+    width: 100%;
+    height: 65px;
+    background: #453F8F;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.nav {
+.HeaderAndNav .Header .left {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.HeaderAndNav .Nav {
     width: 100%;
-    height: 15%;
-    margin: 0 0 1em 0;
-    padding: 0;
-    background-color: #f2f2f2;
-    border-bottom: 1px solid #ccc;
-    float: inline-start;
+    background: #f9f9f9;
+    height: 45px;
+    padding: 0 50px;
 }
