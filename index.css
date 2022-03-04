@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: powderblue;
+    background-color: white;
 }
 
 .HeaderAndNav .Header {
@@ -52,15 +52,21 @@ img {
 
 .HeaderAndNav .Nav {
     width: 100%;
-    background: #f9f9f9;
-    height: 45px;
+    background: #AADEF3;
+    height: 55px;
     padding: 0 50px;
 }
 
 .HeaderAndNav .Nav ul {
     width: 100%;
-    height: 45px;
+    height: 55px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.HeaderAndNav .Nav ul li a {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 150%;
 }
