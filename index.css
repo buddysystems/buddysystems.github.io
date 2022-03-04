@@ -11,22 +11,43 @@ body {
 
 .HeaderAndNav .Header {
     width: 100%;
-    height: 65px;
+    height: 100px;
     background: #453F8F;
     padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HeaderAndNav .Header .left {
+    width: 100%;
+    height: 100px;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.HeaderAndNav .Header .left {
-    display: flex;
-    align-items: center;
+.HeaderAndNav .Header .center {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 300%;
+    font-weight: bold;
+    color: white;
+    /* background-color: black; */
+}
+
+.HeaderAndNav .Header .right {
+    width: 100%;
+    height: 100px;
 }
 
 img {
-    max-width: 30%;
-    max-height: 30%;
+    max-width: 70%;
+    max-height: 70%;
 }
 
 .HeaderAndNav .Nav {
