@@ -70,3 +70,20 @@ img {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 150%;
 }
+
+.about {
+    padding: 20px 500px 20px 200px;
+}
+
+.about header {
+    text-align: left;
+    padding: 20px 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 300%;
+    font-weight: 1000;
+}
+
+.about p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 100%;
+}
