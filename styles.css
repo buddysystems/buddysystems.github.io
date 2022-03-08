@@ -70,6 +70,10 @@ img {
     color: inherit;
 }
 
+.nav a:hover {
+    color: var(--brand-main);
+}
+
 .about {
     margin: 1rem 10rem 1rem 10rem;
     width: 40rem;
@@ -109,6 +113,10 @@ p {
 .contact-links a {
     text-decoration: none;
     color: inherit;
+}
+
+.contact-links a:hover {
+    color: var(--brand-main);
 }
 
 .contact-links {
