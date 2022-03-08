@@ -8,6 +8,7 @@
 :root {
     --brand-main: #453f8f;
     --light-blue: #aadef3;
+    --lightER-blue: #c4eeff;
 }
 
 body {
@@ -58,6 +59,11 @@ img {
     font-family: "Quicksand Bold", sans-serif;
 }
 
+.nav a {
+    padding: 0.5rem;
+    border-radius: 3px;
+}
+
 .nav ul {
     display: flex;
     justify-content: space-between;
@@ -72,6 +78,8 @@ img {
 
 .nav a:hover {
     color: var(--brand-main);
+    background-color: var(--lightER-blue);
+    box-shadow: -5px 5px 5px #463f8f49;
 }
 
 .about {
