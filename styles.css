@@ -69,7 +69,8 @@ img {
 }
 
 .about {
-    padding: 1rem 25rem 1rem 10rem;
+    margin: 1rem 10rem 1rem 10rem;
+    width: 40rem;
 }
 
 header {
@@ -82,4 +83,35 @@ header {
 p {
     font-family: 'Gilroy Light', sans-serif;
     font-size: 100%;
+}
+
+.body-under-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    width: 30rem;
+    margin: 6.6rem 0rem;
+}
+
+.contact-info img {
+    max-width: 20rem;
+}
+
+.contact-links img {
+    max-width: 4rem;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 1rem;
+}
+
+.contact-link {
+    vertical-align: middle;
+    border: 1rem;
 }
