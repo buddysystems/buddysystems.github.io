@@ -131,3 +131,7 @@ p {
     vertical-align: middle;
     border: 1rem;
 }
+
+.link {
+    padding: 1rem 0;
+}
