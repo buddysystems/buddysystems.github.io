@@ -83,6 +83,7 @@ img {
 }
 
 .about {
+    text-indent: 1em;
     margin: 1rem 10rem 1rem 10rem;
     width: 40rem;
 }
